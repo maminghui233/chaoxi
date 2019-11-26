@@ -1,0 +1,5 @@
+<view class="thetop">
+<view class="toptext">现在是{{time}},</view>
+<text>欢迎</text>
+</view>
+<selec></selec>

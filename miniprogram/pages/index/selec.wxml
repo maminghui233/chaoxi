@@ -1,0 +1,29 @@
+<!--pages/index/selec.wxml-->
+<!--<view class="gridIconCell-container">
+  <image class="icon" src="../../images/index-four-icon/banshidating.png"></image>
+  <text class="iconTitle">wef</text>
+  </view>-->
+
+<view class="hotNewsCell-container">
+      <view class="hotNewsCell-topView">
+        <image class="hotNewsCell-topView-left-image" bindtap="click" src="../../images/index-four-icon/w.png"></image>
+      <text style="font-size:15px;color:rgb(75, 71, 71);" >兴趣</text>
+       <view class="divide">  </view>
+      <image class="hotNewsCell-topView-right-image" bindtap="click2" src="../../images/index-four-icon/Bc.png"></image>
+      <text style="font-size:15px;color:rgb(75, 71, 71);">性格</text>
+      </view>
+  </view>
+
+  <view class="hotNewsCell-container">
+      <view class="hotNewsCell-topView" style="background-color:rgb(254, 108, 121);">
+        <image class="hotNewsCell-topView-left-image" bindtap="click3" src="../../images/index-four-icon/Bm.png"></image>
+      <text style="font-size:15px;color:rgb(75, 71, 71);">心理</text>
+      <view class="divide">  </view>
+      <image class="hotNewsCell-topView-right-image" bindtap="click4" src="../../images/index-four-icon/r.png"></image>
+      <text style="font-size:15px;color:rgb(75, 71, 71);">健康</text>
+      </view>
+      
+   
+  </view>
+
+<div style="font-size:9px;top:0rpx;position:relative;">   Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

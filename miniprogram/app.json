@@ -1,0 +1,59 @@
+{
+  "pages": [
+     
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/sort/sort",
+    "pages/find/find",
+    "pages/huangye/huangye",
+    "pages/myself/myself",
+
+    
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#302f34",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"white",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh":true
+
+    
+  },
+
+"tabBar": {
+        "color": "#abadbb",
+        "selectedColor": "#0164a6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "认知",
+        "iconPath": "images/tab/sh.png",
+        "selectedIconPath": "images/tab/sh_selected.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/tab/zhengwu.png",
+        "selectedIconPath": "images/tab/zhengwu_selected.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "images/tab/bianmin.png",
+        "selectedIconPath": "images/tab/bianmin_selected.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "images/tab/me.png",
+        "selectedIconPath": "images/tab/me_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}
